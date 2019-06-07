@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.156
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DurableFunctionChaining", "DurableFunctionChaining\DurableFunctionChaining.csproj", "{921F586B-2780-427E-8957-802E2B7145A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DurableFunctionChaining", "DurableFunctionChaining\DurableFunctionChaining.csproj", "{921F586B-2780-427E-8957-802E2B7145A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionsDependencyInjection", "FunctionsDependencyInjection\FunctionsDependencyInjection.csproj", "{E9558978-0476-41F7-845A-33DD1DF26148}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionsDependencyInjection", "FunctionsDependencyInjection\FunctionsDependencyInjection.csproj", "{E9558978-0476-41F7-845A-33DD1DF26148}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionsDependencyInjectionTests", "FunctionsDependencyInjectionTests\FunctionsDependencyInjectionTests.csproj", "{3CB41819-E444-4A8B-A792-F68E74C92E18}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{E9558978-0476-41F7-845A-33DD1DF26148}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9558978-0476-41F7-845A-33DD1DF26148}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9558978-0476-41F7-845A-33DD1DF26148}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CB41819-E444-4A8B-A792-F68E74C92E18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CB41819-E444-4A8B-A792-F68E74C92E18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CB41819-E444-4A8B-A792-F68E74C92E18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CB41819-E444-4A8B-A792-F68E74C92E18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
