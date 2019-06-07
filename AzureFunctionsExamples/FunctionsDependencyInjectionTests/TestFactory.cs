@@ -29,12 +29,18 @@ namespace FunctionsDependencyInjectionTests
             return qs;
         }
 
-        public static DefaultHttpRequest CreateHttpRequest(string queryStringKey, string queryStringValue)
+        public static DefaultHttpRequest CreateHttpRequestWithQueryStringParams(string queryStringKey, string queryStringValue)
         {
             var request = new DefaultHttpRequest(new DefaultHttpContext())
             {
                 Query = new QueryCollection(CreateDictionary(queryStringKey, queryStringValue))
             };
+            return request;
+        }
+
+        public static DefaultHttpRequest CreateHttpRequestDefaultParams()
+        {
+            var request = new DefaultHttpRequest(new DefaultHttpContext());
             return request;
         }
 

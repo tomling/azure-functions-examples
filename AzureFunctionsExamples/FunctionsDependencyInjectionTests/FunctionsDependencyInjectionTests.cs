@@ -17,7 +17,7 @@ namespace FunctionsDependencyInjectionTests
         [Test]
         public void Test_DependencyInjectionGreeter_Returns_Expected_Greeting()
         {
-            var request = TestFactory.CreateHttpRequest("", "");
+            var request = TestFactory.CreateHttpRequestDefaultParams();
             var greeter = new Greeter();
             var function = new DependencyInjectionGreeter(greeter);
             var response = (OkObjectResult)function.Run(request, _logger);
